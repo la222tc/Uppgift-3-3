@@ -3,3 +3,25 @@
     margin-right:auto;
     width:960px;
 }
+
+#menu {
+    height:200px;
+    background-color:#51473D;
+    background-image:url(pics/coffey.jpg);
+    background-repeat:no-repeat;
+    background-size:960px 150px;
+
+}
+
+li {
+    display:inline;
+}
+
+a:link {
+    text-decoration:none;
+    color:#51473D;                
+}
+
+a:visited {
+    color:black;
+}
