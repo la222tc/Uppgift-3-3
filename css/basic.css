@@ -2,6 +2,7 @@
     margin-left:auto;
     margin-right:auto;
     width:960px;
+    overflow:auto;
 }
 
 #topbar{
@@ -9,6 +10,7 @@
     background-color:#51473D;
     text-align:right;
     float:left;
+    color:#DCE7C5;
 }
 #menu {
     width:100%;
@@ -55,6 +57,8 @@
 #bottomcontent {
     float:left;
     color:#797066;
+    font-style:italic;
+    font-size:12px;
 }
 
 #menu ul {
