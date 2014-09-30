@@ -1,3 +1,7 @@
+#menu > a:first-of-type {
+    display:none;
+}
+
 #container {
     margin-left:auto;
     margin-right:auto;
@@ -12,6 +16,7 @@
     float:left;
     color:#DCE7C5;
 }
+
 #menu {
     width:100%;
     height:220px;
@@ -29,11 +34,13 @@
 }
 
 #maincontent {
-    width:690px;
+    width:650px;
     float:left;
     font-family:times;
     color:#797066;
     margin-left:10px;
+    margin-top:20px;
+    border-right:1px dashed #797066;
     
 }
 
@@ -46,12 +53,12 @@
     width:500px;
 }
 
-
 #subcontent {
-    width:260px;
+    width:258px;
     float:left;
     color:#797066;
     margin-top:20px;
+    margin-left:20px;
 }
 
 #bottomcontent {
@@ -59,19 +66,22 @@
     color:#797066;
     font-style:italic;
     font-size:12px;
+    width:300px;
+    margin-left:10px;
 }
 
 #menu ul {
     margin-top:175px;
     font-family:verdana;
-    
 }
 
 #menu ul li {
+    float:left;
     padding-left:35px;
     padding-top:15px;
-    padding-bottom:10px;
+    padding-bottom:12px;
     background-color:#797066;
+    margin-left:5px;
     
 }
 
@@ -84,6 +94,16 @@
     background-color:#EAE7D2;
 }
 
+#menu .active:hover{
+    background-color:#EAE7D2;
+    text-decoration:underline;
+}
+
+#menu li.active a{
+    color:#888076;
+}
+
+
 li {
     display:inline;
 }
@@ -93,10 +113,6 @@ a:link {
     text-decoration:none; 
     color:#DCE7C5;
     
-}
-
-a:visited {
-    color:#DCE7C5;
 }
 
 #menu ul li:hover {
@@ -131,6 +147,6 @@ a:visited {
 }
 
 #subcontent ul {
-    margin-right:30px;
     margin-left:-40px;
+    margin-top:-10px;
 }
